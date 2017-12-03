@@ -6,22 +6,33 @@
 .topHeader{
     background-color: #3d3d3d;
     padding: 50px;
+    font-family: 'Anton', sans-serif;
+    background:url(../img/fury-header.jpg);
+    background-size:cover;
 }
 
 body{
     text-align:center;
     background-color: #151515;
     color: #edf6ff;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 120px;
     padding: 20px;
+    text-transform: uppercase;
+}
+
+#red{
+    color: red;
 }
 
 h2{
     font-size: 30px;
     padding:20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 img{
@@ -35,6 +46,8 @@ img{
     list-style: none;
     padding: 30px;
     text-transform: lowercase;
+    margin-top:15px;
+    font-size:20px;
 }
 
 .navMenu li{
